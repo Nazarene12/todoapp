@@ -50,7 +50,7 @@ function main(props) {
                     {content && <div className='p-2 mt-5'>
                         {content.map((item , index) => {
                             return(
-                                <Item item = {item} index={index} key={index} editContent = {editContent} deleteContent = {deleteContent}/>
+                                <Item item={item} index={index} key={index} editContent={editContent} deleteContent={deleteContent}/>
 
                             )
                         })}
